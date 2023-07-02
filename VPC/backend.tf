@@ -5,6 +5,7 @@ terraform {
     key            = "webprojekt/VPC/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
+    dynamobd_table = "test_table"
     
   }
 }
